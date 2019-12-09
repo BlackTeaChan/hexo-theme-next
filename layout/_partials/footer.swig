@@ -11,6 +11,8 @@
 {%- endif %}
 
 <div class="copyright">
+  {{ __('浙ICP备') }} -
+  <a href="http://www.miitbeian.gov.cn/">19035478号</a>
   {% set copyright_year = date(null, 'YYYY') %}
   &copy; {% if theme.footer.since and theme.footer.since != copyright_year %}{{ theme.footer.since }} – {% endif %}
   <span itemprop="copyrightYear">{{ copyright_year }}</span>
