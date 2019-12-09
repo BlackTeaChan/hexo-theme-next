@@ -155,4 +155,3 @@ Also, we welcome Issue or PR to [official-plugins][official-plugins-url].
 [official-plugins-url]: https://github.com/theme-next
 [contributors-image]: https://opencollective.com/theme-next/contributors.svg?width=890
 [contributors-url]: https://github.com/theme-next/hexo-theme-next/graphs/contributors
-感谢大佬的分享
