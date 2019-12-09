@@ -11,8 +11,6 @@
 {%- endif %}
 
 <div class="copyright">
-  {{ __('浙ICP备') }} -
-  <a href="http://www.miitbeian.gov.cn/">19035478号</a>
   {% set copyright_year = date(null, 'YYYY') %}
   &copy; {% if theme.footer.since and theme.footer.since != copyright_year %}{{ theme.footer.since }} – {% endif %}
   <span itemprop="copyrightYear">{{ copyright_year }}</span>
@@ -20,7 +18,6 @@
     <i class="fa fa-{{ theme.footer.icon.name }}"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright or author }}</span>
-
   {%- if config.symbols_count_time.total_symbols %}
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
@@ -42,6 +39,10 @@
     {%- endif %}
     <span title="{{ __('symbols_count_time.time_total') }}">{{ symbolsTimeTotal(site, theme.symbols_count_time.awl, theme.symbols_count_time.wpm, __('symbols_count_time.time_minutes')) }}</span>
   {%- endif %}
+
+  <div>
+    <span>浙ICP备 - <a href="http://beian.miit.gov.cn/">19035478号</a></span>
+  </div>
 </div>
 
 {%- if theme.footer.powered.enable %}
