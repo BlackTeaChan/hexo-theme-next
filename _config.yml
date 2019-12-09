@@ -104,10 +104,10 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+#scheme: Muse #默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白
+#scheme: Mist #Muse 的紧凑版本，整洁有序的单栏外观
+#scheme: Pisces #双栏 Scheme，小家碧玉似的清新
+scheme: Gemini #类似Pisces
 
 
 # ---------------------------------------------------------------
@@ -121,13 +121,21 @@ scheme: Muse
 # External url should start with http:// or https://
 menu:
   home: / || home
-  #about: /about/ || user
+  about: /about/ || user
   #tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
+
+#menu:
+#  home: / #首页
+#  archives: /archives #归档页
+#  categories: /categories #分类页 
+#  tags: /tags #标签页
+#  about: /about #关于页面
+#  commonweal: /404.html #404页面
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
