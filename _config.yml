@@ -285,7 +285,7 @@ reward_settings:
   comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 
 reward:
-  #reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+  #reward_comment: /*.png
   wechatpay: /images/wechatpay.png
   alipay: /images/alipay.png
   #bitcoin: /images/bitcoin.png
@@ -422,7 +422,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
   host:
@@ -656,14 +656,14 @@ gitalk:
   enable: false
   github_id: # GitHub repo owner
   repo: # Repository name to store issues
-  client_id: # GitHub Application Client ID
-  client_secret: # GitHub Application Client Secret
-  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  client_id: 00ec5464e0cf8fdc5c08 # GitHub Application Client ID
+  client_secret: 54e62e606f340f418a3fcf40417fadb796581857 # GitHub Application Client Secret
+  admin_user: BlackTeaChan # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
-  language:
+  language: zh-CN
 
 
 # ---------------------------------------------------------------
