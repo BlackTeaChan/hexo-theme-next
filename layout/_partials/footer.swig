@@ -39,10 +39,6 @@
     {%- endif %}
     <span title="{{ __('symbols_count_time.time_total') }}">{{ symbolsTimeTotal(site, theme.symbols_count_time.awl, theme.symbols_count_time.wpm, __('symbols_count_time.time_minutes')) }}</span>
   {%- endif %}
-
-  <div>
-    <span>浙ICP备 - <a href="http://beian.miit.gov.cn/">19035478号</a></span>
-  </div>
 </div>
 
 {%- if theme.footer.powered.enable %}
