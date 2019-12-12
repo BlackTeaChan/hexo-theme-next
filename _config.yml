@@ -254,6 +254,7 @@ chat:
 # ---------------------------------------------------------------
 
 # Automatically excerpt description in homepage as preamble text.
+# 自动在首页对文章进行摘要描述作为前言文本。
 excerpt_description: true
 
 # Read more button
@@ -261,12 +262,18 @@ excerpt_description: true
 read_more_btn: true
 
 # Post meta display settings
+# 文章元数据展示设置
 post_meta:
+  # 文本显示
   item_text: true
+  # 创建时间
   created_at: true
+  # 更新时间
+  # 这个更新时间有点问题，因为每次重新生成文章/部署时都会刷新更新时间，不建议使用
   updated_at:
-    enable: true
+    enable: false
     another_day: true
+  # 目录分类
   categories: true
 
 # Post wordcount display settings
