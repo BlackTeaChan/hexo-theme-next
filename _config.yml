@@ -95,11 +95,16 @@ footer:
 # Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
+# 四种核心权利
+# 1. 署名（Attribution，简写为BY）：必须提到原作者。
+# 2. 非商业用途（Noncommercial，简写为NC）：不得用于盈利性目的。
+# 3. 禁止演绎（No Derivative Works，简写为ND）：不得修改原作品, 不得再创作。
+# 4. 相同方式共享（Share Alike，简写为SA）：允许修改原作品，但必须使用相同的许可证发布。
 creative_commons:
   license: by-nc-sa
   sidebar: false
-  post: false
-  language:
+  post: true
+  language: deed.zh
 
 
 # ---------------------------------------------------------------
@@ -218,7 +223,7 @@ links_settings:
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  #Title: http://blackteachan.com
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -266,6 +271,7 @@ post_meta:
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+# 字数统计
 symbols_count_time:
   separated_meta: true
   item_text_post: true
@@ -730,7 +736,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
@@ -863,6 +869,7 @@ motion:
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
 # For more information: https://github.com/HubSpot/pace
+# 界面加载进度条
 pace:
   enable: false
   # Themes list:
