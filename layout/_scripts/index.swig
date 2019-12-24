@@ -16,3 +16,9 @@
   {% include 'pjax.swig' %}
 {%- endif %}
 {% include 'three.swig' %}
+
+
+
+
+
+{{- next_js('mine.js') }}
