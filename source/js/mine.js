@@ -8,13 +8,16 @@
 (function(window,document,undefined){
 
   //配置信息
+  //鼠标点击出现爱心
   var SHU_BIAO_DIAN_JI_AI_XIN = true;
 
 
   //实现特效
   /**********************************************************/
-  /* 鼠标点击❤️ */
-  /* 搬运自https://blog.csdn.net/qq_41879385/article/details/83472892 */
+  /**
+   * 鼠标点击出现爱心
+   * 搬运自https://blog.csdn.net/qq_41879385/article/details/83472892
+   */
   if(SHU_BIAO_DIAN_JI_AI_XIN){
     console.log("加载❤️");
     var hearts = [];
