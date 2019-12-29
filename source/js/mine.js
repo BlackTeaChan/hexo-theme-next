@@ -38,6 +38,7 @@
       gameloop();
     }
     function gameloop(){
+      var offsetY = 10;
       for(var i=0;i<hearts.length;i++){
         if(hearts[i].alpha <=0){
           document.body.removeChild(hearts[i].el);
@@ -46,13 +47,13 @@
         }
         hearts[i].y--;
         hearts[i].scale += 0.004;
-        hearts[i].alpha -= 0.013;
-        hearts[i].el.style.cssText = "left:"+hearts[i].x+"px;top:"+hearts[i].y+"px;opacity:"+hearts[i].alpha+";transform:scale("+hearts[i].scale+","+hearts[i].scale+") rotate(45deg);background:"+hearts[i].color;
+        hearts[i].alpha -= 0.007;
+        hearts[i].el.style.cssText = "left:"+hearts[i].x+"px;top:" + (hearts[i].y - offsetY) + "px;opacity:"+hearts[i].alpha+";transform:scale("+hearts[i].scale+","+hearts[i].scale+") rotate(45deg);background:"+hearts[i].color;
       }
       requestAnimationFrame(gameloop);
     }
     function attachEvent(){
-      var old = typeof window.οnclick==="function" && window.onclick;
+      var old = typeof window.onclick==="function" && window.onclick;
       window.onclick = function(event){
         old && old();
         createHeart(event);
@@ -88,4 +89,5 @@
   }
   /**********************************************************/
   console.clear();
+  console.log("今天又是充满希望的一天");
 })(window,document);
