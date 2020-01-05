@@ -185,10 +185,10 @@ avatar:
   # Replace the default image and set the url here.
   url: /images/tea_icon.png
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
   # 旋转
-  rotated: true
+  rotated: false
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
