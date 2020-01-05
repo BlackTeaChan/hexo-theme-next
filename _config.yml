@@ -183,10 +183,11 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/avatar.gif
+  url: /images/tea_icon.png
   # If true, the avatar will be dispalyed in circle.
-  rounded: true
+  rounded: false
   # If true, the avatar will be rotated with the cursor.
+  # 旋转
   rotated: true
 
 # Posts / Categories / Tags in sidebar.
