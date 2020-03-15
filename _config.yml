@@ -129,8 +129,8 @@ scheme: Gemini #类似Pisces
 # External url should start with http:// or https://
 menu:
   home: / || home
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
   about: /about/ || user
   #schedule: /schedule/ || calendar
@@ -140,7 +140,7 @@ menu:
 #menu:
 #  home: / #首页
 #  archives: /archives #归档页
-#  categories: /categories #分类页 
+#  categories: /categories #分类页
 #  tags: /tags #标签页
 #  about: /about #关于页面
 #  commonweal: /404.html #404页面
@@ -389,7 +389,7 @@ codeblock:
     # Show text copy result.
     show_result: true
     # Available values: default | flat | mac
-    style: 
+    style:
 
 back2top:
   enable: true
@@ -470,7 +470,7 @@ font:
     family:
 
   # Font settings for <code> and code blocks.
-  codes: 
+  codes:
     external: true
     family: Microsoft Yahei
 
