@@ -272,7 +272,7 @@ post_meta:
   # 更新时间
   # 这个更新时间有点问题，因为每次重新生成文章/部署时都会刷新更新时间，不建议使用
   updated_at:
-    enable: false
+    enable: true
     another_day: true
   # 目录分类
   categories: true
