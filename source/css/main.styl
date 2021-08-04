@@ -43,3 +43,24 @@ for $inject_mixin in hexo-config('injects.mixin')
 // --------------------------------------------------
 for $inject_style in hexo-config('injects.style')
   @import $inject_style;
+
+
+
+//**********************************//
+//                                  //
+//  Custom CSS Add by BlackTeaChan  //
+//                                  //
+//**********************************//
+
+// 代码块的hover颜色
+div.highlight-container
+  figure.highlight
+    div.table-container
+      table
+        tr:hover{
+  background-color: inherit;
+}
+// 代码块内的奇数行（无效）
+//div.highlight-container figure.highlight div.table-container table tbody tr:nth-of-type(odd){
+//  background: red!important;
+//}
