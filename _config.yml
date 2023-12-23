@@ -667,11 +667,11 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: false
-  github_id: # GitHub repo owner
-  repo: # Repository name to store issues
+  enable: true
+  github_id: BlackTeaChan # GitHub repo owner
+  repo: blog-gitlak # Repository name to store issues
   client_id: 00ec5464e0cf8fdc5c08 # GitHub Application Client ID
-  client_secret: 54e62e606f340f418a3fcf40417fadb796581857 # GitHub Application Client Secret
+  client_secret: c3a724dc6d7ce2a277f2bc6d6f8d27447c80b9cf # GitHub Application Client Secret
   admin_user: BlackTeaChan # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment

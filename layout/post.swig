@@ -14,3 +14,8 @@
 {% block sidebar %}
   {{ sidebar_template.render(true) }}
 {% endblock %}
+
+<!-- Gitalk -->
+{% if theme.git_talk.enabled and not is_index %}
+<div>{% include 'git-talk.swig' %}</div>
+{% endif %}
