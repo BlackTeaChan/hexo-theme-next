@@ -296,7 +296,7 @@ reward_settings:
   # If true, reward will be displayed in every article by default.
   enable: true
   animation: true
-  comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+  comment: 如果文章对您有帮助，欢迎评论或打赏，感谢支持！
 
 reward:
   #reward_comment: /*.png

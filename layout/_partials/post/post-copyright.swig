@@ -3,9 +3,6 @@
 
 <div>
 <ul class="post-copyright">
-  <li>
-    <strong>嘤嘤嘤 Java是世界上最好的语言</strong>
-  </li>
   <li class="post-copyright-author">
     <strong>{{ __('post.copyright.author') + __('symbol.colon') }} </strong>
     {{- page.author or author }}
