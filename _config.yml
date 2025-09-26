@@ -209,7 +209,10 @@ social:
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
   #RSS: /atom.xml || rss
-  知乎: http://www.zhihu.com/people/blackteachan || zhihu
+  知乎: https://www.zhihu.com/people/blackteachan || zhihu
+  抖音: https://v.douyin.com/U7g8cT7DS1s || dy
+  小红书: https://www.xiaohongshu.com/user/profile/5f64407a0000000001005674 || xhs
+  B站: https://space.bilibili.com/45628378 || bilibili
 
 social_icons:
   enable: true
